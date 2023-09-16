@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://moshify-654.pages.dev/sitemap.xml
