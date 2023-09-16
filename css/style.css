@@ -669,3 +669,14 @@ picture {
     margin-top: 2rem;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --backgroundColor: #000000;
+    --color: #b3cae6;
+    --headingColor: #d9e5f2;
+    --accentColor: #8cb0d9;
+    --extraColor: #060c13;
+    --opacityColor: #407bbf80;
+  }
+}
