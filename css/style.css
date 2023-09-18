@@ -515,9 +515,9 @@ picture {
 /* Banner */
 
 .banner_logo {
-  font-size: 1.625rem;
+  font-size: 1.584rem;
   color: var(--accentColor);
-  font-weight: 650;
+  font-weight: 750;
 }
 
 .banner_button {
