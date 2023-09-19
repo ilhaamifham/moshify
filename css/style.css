@@ -315,7 +315,7 @@ picture {
 .quote_card_body {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   flex-direction: column;
   padding: 1rem;
 }
@@ -338,6 +338,7 @@ picture {
   color: var(--headingColor);
   font-size: 1.2rem;
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 768px) {
