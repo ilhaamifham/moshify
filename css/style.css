@@ -46,18 +46,18 @@ h3 {
 }
 
 h1 {
-  font-size: 2.488rem;
-  font-weight: 1000;
+  font-size: 2.625rem;
+  font-weight: 800;
 }
 
 h2 {
-  font-size: 2.074rem;
-  font-weight: 900;
+  font-size: 2.25rem;
+  font-weight: 760;
 }
 
 h3 {
-  font-size: 1.728rem;
-  font-weight: 800;
+  font-size: 1.875rem;
+  font-weight: 720;
 }
 
 /* General */
@@ -91,7 +91,7 @@ picture {
 .link {
   display: inline-block;
   white-space: nowrap;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .feature_media_link {
@@ -173,7 +173,7 @@ picture {
   padding: 0 0.5rem;
   border-radius: 50px;
   white-space: nowrap;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .domain-badge {
@@ -210,7 +210,7 @@ picture {
 
 .domain_list_item {
   margin: 0 1rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Input */
@@ -265,8 +265,8 @@ picture {
 
 .card_price .badge {
   margin-left: auto;
-  font-size: 0.833rem;
-  font-weight: 500;
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
 .card_heading {
@@ -286,7 +286,7 @@ picture {
 
 .card_amount {
   font-size: 1.728rem;
-  font-weight: 800;
+  font-weight: 720;
 }
 
 .card:hover {
@@ -331,13 +331,13 @@ picture {
 .quote_author {
   text-align: right;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .quote_author-name {
   color: var(--headingColor);
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 640;
   margin-top: 1rem;
 }
 
@@ -427,10 +427,10 @@ picture {
   display: block;
   margin: 1rem 0;
   transition: 0.5s;
-  font-weight: 600;
+  font-weight: 640;
   opacity: 0.6;
   color: var(--headingColor);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .active a,
@@ -516,9 +516,9 @@ picture {
 /* Banner */
 
 .banner_logo {
-  font-size: 1.584rem;
+  font-size: 1.813rem;
   color: var(--accentColor);
-  font-weight: 750;
+  font-weight: 700;
 }
 
 .banner_button {
@@ -629,8 +629,8 @@ picture {
 
 .contentinfo_menu_heading {
   margin-bottom: 0;
-  font-size: 1.44rem;
-  font-weight: 700;
+  font-size: 1.563rem;
+  font-weight: 680;
   color: var(--headingColor);
 }
 
@@ -650,7 +650,7 @@ picture {
 .copyright {
   text-align: center;
   margin-top: 3rem;
-  font-size: 0.833rem;
+  font-size: 0.875rem;
 }
 
 @media screen and (min-width: 768px) {
