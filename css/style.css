@@ -435,6 +435,9 @@ picture {
   font-weight: 600;
   opacity: 0.6;
   color: var(--headingColor);
+}
+
+.banner_list_item a {
   font-size: 1.25rem;
 }
 
@@ -634,7 +637,7 @@ picture {
 
 .contentinfo_menu_heading {
   margin-bottom: 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--headingColor);
   letter-spacing: normal;
