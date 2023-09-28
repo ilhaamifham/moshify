@@ -342,10 +342,6 @@ picture {
   margin-top: 1rem;
 }
 
-.quote_author-company {
-  opacity: 0.6;
-}
-
 @media screen and (min-width: 768px) {
   .quote_card_body {
     flex-direction: row;
@@ -433,7 +429,7 @@ picture {
   margin: 1rem 0;
   transition: 0.5s;
   font-weight: 600;
-  opacity: 0.6;
+  opacity: 0.7;
   color: var(--headingColor);
 }
 
