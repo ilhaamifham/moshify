@@ -167,6 +167,7 @@ picture {
   width: 1rem;
   height: 1rem;
   fill: var(--accentColor);
+  transform: translateY(1px);
 }
 
 /* Badges */
@@ -440,12 +441,10 @@ picture {
   font-size: 1.2rem;
 }
 
-.active a,
 .banner_list_item a:hover,
 .banner_list_item a:focus-visible,
 .contentinfo_menu_list a:hover,
 .contentinfo_menu_list a:focus-visible {
-  color: var(--accentColor);
   opacity: 1;
 }
 
@@ -524,7 +523,7 @@ picture {
 
 .banner_logo {
   font-size: 1.44rem;
-  color: var(--accentColor);
+  color: var(--headingColor);
   font-weight: 600;
 }
 
