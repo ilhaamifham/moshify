@@ -1,12 +1,12 @@
 /* Variables */
 
 :root {
-  --backgroundColor: #ffffff;
-  --color: #19314d;
-  --headingColor: #0d1926;
-  --accentColor: #264a73;
-  --extraColor: #ecf2f9;
-  --opacityColor: #407bbf80;
+  --backgroundColor: hsl(0, 0%, 100%);
+  --color: hsl(212, 51%, 30%);
+  --headingColor: hsl(211, 49%, 20%);
+  --accentColor: hsl(212, 50%, 40%);
+  --extraColor: hsl(212, 52%, 90%);
+  --opacityColor: hsla(212, 50%, 50%, 0.5);
 }
 
 /* Reset */
@@ -78,7 +78,6 @@ a {
 img {
   width: 100%;
   display: block;
-  border-radius: 10px;
 }
 
 picture {
@@ -186,7 +185,7 @@ picture {
 
 .card-badge {
   color: var(--headingColor);
-  background-color: var(--extraColor);
+  background-color: var(--backgroundColor);
 }
 
 /* Lists */
@@ -333,16 +332,17 @@ picture {
 
 .quote_author {
   text-align: right;
-  font-style: normal;
   font-weight: 600;
-  opacity: 0.6;
 }
 
 .quote_author-name {
   color: var(--headingColor);
   font-size: 1.2rem;
-  font-weight: 600;
   margin-top: 1rem;
+}
+
+.quote_author-company {
+  opacity: 0.6;
 }
 
 @media screen and (min-width: 768px) {
@@ -543,16 +543,22 @@ picture {
   margin-bottom: 2rem;
 }
 
+.domain_search,
+.quote_card,
+.callout_card {
+  max-width: 400px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .block-header {
     text-align: inherit;
   }
-}
 
-.domain_search,
-.quote_card,
-.callout_card {
-  max-width: 1080px;
+  .domain_search,
+  .quote_card,
+  .callout_card {
+    max-width: 700px;
+  }
 }
 
 /* Main - Hero Block */
@@ -677,16 +683,5 @@ picture {
 
   .copyright {
     margin-top: 2rem;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --backgroundColor: #000000;
-    --color: #b3cae6;
-    --headingColor: #d9e5f2;
-    --accentColor: #8cb0d9;
-    --extraColor: #060c13;
-    --opacityColor: #407bbf80;
   }
 }
