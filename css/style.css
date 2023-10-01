@@ -50,19 +50,19 @@ h4 {
 }
 
 h1 {
-  font-size: 2.488rem;
+  font-size: 2.938rem;
 }
 
 h2 {
-  font-size: 2.074rem;
+  font-size: 2.375rem;
 }
 
 h3 {
-  font-size: 1.728rem;
+  font-size: 1.938rem;
 }
 
 h4 {
-  font-size: 1.44rem;
+  font-size: 1.563rem;
 }
 
 /* General */
@@ -271,7 +271,7 @@ picture {
 
 .card_price .badge {
   margin-left: auto;
-  font-size: 0.833rem;
+  font-size: 0.813rem;
   font-weight: 500;
 }
 
@@ -291,7 +291,7 @@ picture {
 }
 
 .card_amount {
-  font-size: 1.728rem;
+  font-size: 1.938rem;
   font-weight: 600;
 }
 
@@ -337,11 +337,12 @@ picture {
 .quote_author {
   text-align: right;
   font-weight: 500;
+  letter-spacing: normal;
 }
 
 .quote_author-name {
   color: var(--headingColor);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   margin-top: 1rem;
 }
 
@@ -434,10 +435,11 @@ picture {
   font-weight: 600;
   opacity: 0.7;
   color: var(--headingColor);
+  letter-spacing: normal;
 }
 
 .banner_list_item a {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .banner_list_item a:hover,
@@ -521,9 +523,10 @@ picture {
 /* Banner */
 
 .banner_logo {
-  font-size: 1.44rem;
+  font-size: 1.563rem;
   color: var(--headingColor);
   font-weight: 600;
+  letter-spacing: normal;
 }
 
 .banner_button {
@@ -640,9 +643,10 @@ picture {
 
 .contentinfo_menu_heading {
   margin-bottom: 0;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--headingColor);
+  letter-spacing: normal;
 }
 
 .contentinfo_menu {
@@ -661,7 +665,7 @@ picture {
 .copyright {
   text-align: center;
   margin-top: 3rem;
-  font-size: 0.833rem;
+  font-size: 0.813rem;
 }
 
 @media screen and (min-width: 768px) {
