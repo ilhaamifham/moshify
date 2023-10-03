@@ -1,12 +1,12 @@
 /* Variables */
 
 :root {
-  --backgroundColor: hsl(0, 0%, 100%);
-  --color: hsl(212, 51%, 30%);
-  --headingColor: hsl(211, 49%, 20%);
-  --accentColor: hsl(212, 50%, 40%);
-  --extraColor: hsl(212, 52%, 90%);
-  --opacityColor: hsla(212, 50%, 50%, 0.5);
+  --backgroundColor: hsl(214, 82%, 100%);
+  --color: hsl(214, 82%, 10%);
+  --headingColor: hsl(214, 82%, 0%);
+  --accentColor: hsl(214, 82%, 50%);
+  --extraColor: hsl(214, 82%, 90%);
+  --opacityColor: hsla(214, 50%, 50%, 0.5);
 }
 
 /* Reset */
@@ -35,7 +35,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.25px;
 }
 
 h1,
@@ -45,24 +45,24 @@ h4 {
   margin-bottom: 1rem;
   color: var(--headingColor);
   line-height: 1.25;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal;
 }
 
 h1 {
-  font-size: 2.938rem;
+  font-size: 2.75rem;
 }
 
 h2 {
-  font-size: 2.375rem;
+  font-size: 2.125rem;
 }
 
 h3 {
-  font-size: 1.938rem;
+  font-size: 1.625rem;
 }
 
 h4 {
-  font-size: 1.563rem;
+  font-size: 1.25rem;
 }
 
 /* General */
@@ -271,7 +271,7 @@ picture {
 
 .card_price .badge {
   margin-left: auto;
-  font-size: 0.813rem;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 
@@ -291,8 +291,8 @@ picture {
 }
 
 .card_amount {
-  font-size: 1.938rem;
-  font-weight: 600;
+  font-size: 1.625rem;
+  font-weight: 500;
 }
 
 .card:hover {
@@ -342,7 +342,7 @@ picture {
 
 .quote_author-name {
   color: var(--headingColor);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   margin-top: 1rem;
 }
 
@@ -432,14 +432,11 @@ picture {
   display: block;
   margin: 1rem 0;
   transition: 0.5s;
-  font-weight: 600;
+  font-weight: 500;
   opacity: 0.7;
   color: var(--headingColor);
   letter-spacing: normal;
-}
-
-.banner_list_item a {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .banner_list_item a:hover,
@@ -523,9 +520,9 @@ picture {
 /* Banner */
 
 .banner_logo {
-  font-size: 1.563rem;
+  font-size: 1.5rem;
   color: var(--headingColor);
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal;
 }
 
@@ -644,7 +641,7 @@ picture {
 .contentinfo_menu_heading {
   margin-bottom: 0;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--headingColor);
   letter-spacing: normal;
 }
@@ -665,7 +662,7 @@ picture {
 .copyright {
   text-align: center;
   margin-top: 3rem;
-  font-size: 0.813rem;
+  font-size: 0.875rem;
 }
 
 @media screen and (min-width: 768px) {
