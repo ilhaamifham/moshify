@@ -435,6 +435,9 @@ picture {
   opacity: 0.7;
   color: var(--headingColor);
   letter-spacing: normal;
+}
+
+.banner_list_item a {
   font-size: 1.125rem;
 }
 
