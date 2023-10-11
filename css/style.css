@@ -241,6 +241,7 @@ picture {
 .domain_search_button {
   padding: 0.5rem;
   border-radius: 50px;
+  background-color: var(--backgroundColor);
 }
 
 /* Cards */
@@ -313,7 +314,7 @@ picture {
 
 .quote_card {
   background-color: var(--extraColor);
-  border-radius: 10px;
+  border-radius: 4px;
   margin: 0 auto;
 }
 
@@ -326,11 +327,12 @@ picture {
 }
 
 .quote_card_body img {
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .quote_words {
   font-style: italic;
+  font-size: 1.125rem;
 }
 
 .quote_author {
@@ -360,7 +362,7 @@ picture {
   justify-content: space-between;
   text-align: center;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 4px;
   background-color: var(--extraColor);
   gap: 1rem;
   margin: 2rem auto 0;
