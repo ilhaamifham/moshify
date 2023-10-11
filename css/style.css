@@ -2,10 +2,10 @@
 
 :root {
   --backgroundColor: hsl(214, 82%, 100%);
-  --color: hsl(214, 82%, 20%);
+  --color: hsl(214, 82%, 25%);
   --headingColor: hsl(214, 82%, 0%);
   --accentColor: hsl(214, 82%, 50%);
-  --extraColor: hsl(214, 82%, 90%);
+  --extraColor: hsl(214, 82%, 95%);
   --opacityColor: hsla(214, 50%, 50%, 0.5);
 }
 
