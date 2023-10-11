@@ -472,6 +472,16 @@ picture {
 
   .banner_list_item a {
     margin: 0 0 0 3rem;
+    padding: 0.5rem 0.5rem 0.375rem;
+    border-bottom: 2px solid var(--backgroundColor);
+  }
+
+  .banner_list_item a:hover,
+  .banner_list_item a:focus-visible,
+  .contentinfo_menu_list a:hover,
+  .contentinfo_menu_list a:focus-visible {
+    opacity: 1;
+    border-bottom-color: var(--headingColor);
   }
 
   .banner_list .list {
