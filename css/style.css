@@ -8,7 +8,7 @@
   --headingColor: hsl(214, 82%, 0%);
   --accentColor: hsl(214, 82%, 50%);
   --extraColor: hsl(214, 82%, 95%);
-  --opacityColor: hsla(214, 50%, 50%, 0.5);
+  --opacityColor: hsla(214, 50%, 50%, 0.2);
 }
 
 /* Reset */
@@ -137,13 +137,14 @@ picture {
 }
 
 .link_secondary {
-  background-color: var(--extraColor);
+  background-color: var(--backgroundColor);
+  color: var(--accentColor);
 }
 
 .link_secondary:hover,
 .link_secondary:focus-visible {
-  color: var(--backgroundColor);
-  background-color: var(--accentColor);
+  background-color: var(--extraColor);
+  color: var(--color);
 }
 
 .callout_card .link_primary:hover,
@@ -181,7 +182,6 @@ picture {
   padding: 0 0.75rem;
   border-radius: 50px;
   white-space: nowrap;
-  font-weight: 600;
 }
 
 .domain-badge {
@@ -218,7 +218,7 @@ picture {
 
 .domain_list_item {
   margin: 0 1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Input */
@@ -250,13 +250,12 @@ picture {
 /* Cards */
 
 .card {
-  background-color: var(--extraColor);
   border-radius: 4px;
   overflow: hidden;
   transition: 0.5s;
   width: 16rem;
   margin: 1rem;
-  box-shadow: 10px 10px 0 0 var(--opacityColor);
+  border: 1px solid var(--accentColor);
 }
 
 .card_header {
@@ -275,14 +274,14 @@ picture {
 .card_price .badge {
   margin-left: auto;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .card_heading {
   color: inherit;
   margin: 0;
-  font-size: inherit;
-  font-weight: inherit;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .card_body {
@@ -299,7 +298,7 @@ picture {
 }
 
 .card:hover {
-  box-shadow: 15px 15px 0 0 var(--opacityColor);
+  box-shadow: 10px 10px 0 0 var(--opacityColor);
 }
 
 .card_footer .link-button {
