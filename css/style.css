@@ -100,7 +100,7 @@ picture {
 .link {
   display: inline-block;
   white-space: nowrap;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .feature_media_link {
@@ -119,10 +119,10 @@ picture {
 }
 
 .link-button {
-  padding: 0.75rem 1.5rem;
+  padding: 0.625rem 1.375rem;
   border-radius: 4px;
   transition: 0.5s;
-  border: 1px solid var(--accentColor);
+  border: 2px solid var(--accentColor);
 }
 
 .link_primary {
@@ -229,7 +229,7 @@ picture {
   margin: 0 auto 2rem;
   background-color: var(--extraColor);
   border-radius: 50px;
-  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  padding: 0.75rem 1.5rem;
 }
 
 .domain_search_input {
@@ -242,9 +242,7 @@ picture {
 }
 
 .domain_search_button {
-  padding: 0.5rem;
   border-radius: 50px;
-  background-color: var(--backgroundColor);
 }
 
 /* Cards */
@@ -255,7 +253,7 @@ picture {
   transition: 0.5s;
   width: 16rem;
   margin: 1rem;
-  border: 1px solid var(--accentColor);
+  border: 2px solid var(--accentColor);
 }
 
 .card_header {
@@ -339,7 +337,7 @@ picture {
 
 .quote_author {
   text-align: right;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal;
 }
 
@@ -347,6 +345,10 @@ picture {
   color: var(--headingColor);
   font-size: 1.125rem;
   margin-top: 1rem;
+}
+
+.quote_author-company {
+  color: hsl(0deg 0% 0% / 60%);
 }
 
 @media screen and (min-width: 768px) {
@@ -365,14 +367,14 @@ picture {
   text-align: center;
   padding: 1rem;
   border-radius: 4px;
-  background-color: var(--extraColor);
+  background-color: var(--backgroundColor);
   gap: 1rem;
   margin: 2rem auto 0;
 }
 
 .callout_heading,
 .callout_body {
-  color: var(--headingColor);
+  color: var(--backgroundColor);
 }
 
 .callout_card .link_primary:hover,
@@ -416,7 +418,7 @@ picture {
 .banner_button,
 .contentinfo_menu_button {
   transition: 0.5s;
-  border: 2px solid var(--extraColor);
+  background-color: var(--extraColor);
   padding: 0.5rem;
 }
 
@@ -475,7 +477,7 @@ picture {
 
   .banner_list_item a {
     margin: 0 0 0 3rem;
-    padding: 0.5rem 0.5rem 0.375rem;
+    padding: 0.313rem;
     border-bottom: 2px solid var(--backgroundColor);
   }
 
@@ -483,7 +485,6 @@ picture {
   .banner_list_item a:focus-visible,
   .contentinfo_menu_list a:hover,
   .contentinfo_menu_list a:focus-visible {
-    opacity: 1;
     border-bottom-color: var(--headingColor);
   }
 
@@ -535,9 +536,9 @@ picture {
 /* Banner */
 
 .banner_logo {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--headingColor);
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal;
 }
 
