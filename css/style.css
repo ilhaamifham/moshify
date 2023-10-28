@@ -297,17 +297,12 @@ picture {
 
 .card:hover {
   box-shadow: 10px 10px 0 0 var(--opacityColor);
+  transform: translateX(-5px) translateY(-5px);
 }
 
 .card_footer .link-button {
   display: block;
   text-align: center;
-}
-
-@media screen and (min-width: 911px) {
-  .card:nth-child(2) {
-    transform: scale(1.1);
-  }
 }
 
 /* Quote Card */
