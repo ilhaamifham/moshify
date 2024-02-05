@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="39"
+   height="39"
+   viewBox="0 0 39 39"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="moshify.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="6.3588517"
+     inkscape:cx="28.936042"
+     inkscape:cy="32.553047"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        fill: #2584ff;
+        stroke: #2584ff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ff3400;
+        stroke: #ff3400;
+        mix-blend-mode: lighten;
+      }
+
+      .cls-3 {
+        font-size: 32.498px;
+        fill: #fff;
+        font-family: Inter;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path
+     id="Polygon_1_copy_2"
+     data-name="Polygon 1 copy 2"
+     class="cls-1"
+     d="M 18.490907,22.876103 5.3543335,33.546839 10.575597,5.2637801 Z"
+     style="fill:#1772e8;fill-opacity:1;stroke:#1772e8;stroke-opacity:1"
+     inkscape:transform-center-x="11.998669"
+     inkscape:transform-center-y="0.15557566" />
+  <path
+     id="Polygon_1_copy_2-2"
+     data-name="Polygon 1 copy 2"
+     class="cls-2"
+     d="M 21.823002,22.996754 33.896449,33.765892 29.097737,5.222014 Z"
+     style="opacity:1;fill:#1772e8;fill-opacity:1;stroke:#1772e8;stroke-opacity:1"
+     inkscape:transform-center-x="-4.019057"
+     inkscape:transform-center-y="-0.072046846" />
+</svg>
