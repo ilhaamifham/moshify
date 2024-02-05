@@ -535,6 +535,10 @@ picture {
   color: var(--headingColor);
   font-weight: 800;
   letter-spacing: normal;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 .banner_button {
